@@ -37,3 +37,27 @@ this_list1.remove("banana")
 this_list1.pop(2)
 
 print(this_list1)
+
+
+# LOOP list - using for loop
+
+thislist3 = ["apple", "banana", "cherry"]
+for x in thislist3:
+    print(x)
+
+thislist3.sort()
+print(thislist3)
+
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
+
+# join list 
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
